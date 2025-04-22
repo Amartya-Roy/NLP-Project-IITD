@@ -1,4 +1,4 @@
-The causal_llm.py contains the code for our data-driven model.
-The config_models contains config for all the causal aglorithms we have used to benchmark our model.
-The main_runner evaluates all the causal algorithms on the dataset and ground truth DAG.
-The run.ipynb showcases a demo to run and evaluate these models.
+The config_datasets.py contains the configuration to generate the datasets.
+data2.py contains code to pull publicly available datasets from Causal Discovery Toolbox and bnlearn
+data_gen_functions.py contains the code to generate synthetic datasets
+The run.ipynb showcases a demo to generate synthetic datasets
